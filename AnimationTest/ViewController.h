@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    UIWebView IBOutlet *webView;
+    int rotationState;
+    CATransform3D projectMatrix;
+}
+
+-(void)swipeRight;
+-(void)swipeLeft;
 
 @end

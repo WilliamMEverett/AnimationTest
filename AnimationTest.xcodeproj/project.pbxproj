@@ -24,6 +24,7 @@
 		87B9D08D16E50CD400E2F48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B9D06516E50CD400E2F48F /* Foundation.framework */; };
 		87B9D09516E50CD400E2F48F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B9D09316E50CD400E2F48F /* InfoPlist.strings */; };
 		87B9D09816E50CD400E2F48F /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B9D09716E50CD400E2F48F /* AnimationTestTests.m */; };
+		87B9D0A216E523A100E2F48F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B9D0A116E523A100E2F48F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		87B9D09416E50CD400E2F48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87B9D09616E50CD400E2F48F /* AnimationTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTestTests.h; sourceTree = "<group>"; };
 		87B9D09716E50CD400E2F48F /* AnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestTests.m; sourceTree = "<group>"; };
+		87B9D0A116E523A100E2F48F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87B9D06416E50CD400E2F48F /* UIKit.framework in Frameworks */,
+				87B9D0A216E523A100E2F48F /* QuartzCore.framework in Frameworks */,
 				87B9D06616E50CD400E2F48F /* Foundation.framework in Frameworks */,
 				87B9D06816E50CD400E2F48F /* CoreGraphics.framework in Frameworks */,
 			);
@@ -108,6 +111,7 @@
 		87B9D06216E50CD400E2F48F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87B9D0A116E523A100E2F48F /* QuartzCore.framework */,
 				87B9D06316E50CD400E2F48F /* UIKit.framework */,
 				87B9D06516E50CD400E2F48F /* Foundation.framework */,
 				87B9D06716E50CD400E2F48F /* CoreGraphics.framework */,
